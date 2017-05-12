@@ -16,7 +16,7 @@ There are some steps you need to follow in order to recreate the complete enviro
 *  step1 - user types "i want to book a single room" or "i want to book a double room", then facebook messenger will display different room image
 *  step2 - user types ex "two adults and one kid, check in 2017-11-11, check out 2017-11-14", then facebook messenger will display a confirmation message including the room that is picked, number of adults/children, checkin date/checkout date
 
-a few technical level bullet points here
+A few technical level bullet points here
 * in each step above, facebooking messenger communicates with our hosted webservice through api.ai. communication is two ways
 * information gathered from step1 is saved into api.ai context and get passed further to step2
 * step2 step will not be triggered unless step1 is triggered
