@@ -1,0 +1,35 @@
+{
+	"id": "9d9aea3c-ddd2-03ca-abaa-a5befcbf31c3",
+	"name": "bookbot",
+	"description": "",
+	"order": [
+		"d413603b-bf43-5d85-d39a-f1d5927544d2"
+	],
+	"folders": [],
+	"timestamp": 1494574537378,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "d413603b-bf43-5d85-d39a-f1d5927544d2",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://localhost:40298/api/values",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "9d9aea3c-ddd2-03ca-abaa-a5befcbf31c3",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:40298/api/values",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1494574553562,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{ 'id':'c833261e-f3c6-4564-8c11-4be73b4484e1','timestamp':'2017-05-11T16:42:49.117Z','lang':'en','result':{ 'source':'agent','resolvedQuery':'weather in london','speech':'','action':'showroom','actionIncomplete':false,'parameters':{ 'city':'London'},'contexts':[],'metadata':{'intentId':'d4b0556f-2144-4a70-afe4-f7079180e3ff','webhookUsed':'true','webhookForSlotFillingUsed':'true','intentName':'weather in London'},'fulfillment':{'speech':'error!! web service fails','messages':[{'type':0,'speech':'error!! web service fails'}]},'score':1.0},'status':{'code':200,'errorType':'success'},'sessionId':'266f0bdd-cfab-461e-bb39-a2ed84144007'}"
+		}
+	]
+}
