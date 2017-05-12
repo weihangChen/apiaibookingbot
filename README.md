@@ -14,7 +14,8 @@ There are some steps you need to follow in order to recreate the complete enviro
 
 ## User Story Description
 *  step1 - user types "i want to book a single room" or "i want to book a double room", then facebook messenger will display different room image
-*  step2 - user types ex "two adults and one kid, check in 2017-11-11, check out 2017-11-14", then facebook messenger will display a confirmation message including the room that is picked, number of adults/children, checkin date/checkout date
+*  step2 - user types ex "two adults and one kid, check in 2017-11-11, check out 2017-11-14", then facebook messenger will display a confirmation message including the room that is picked, number of adults/children, checkin date/checkout date. we can also write things like "we are 10 adults and 1 kid, checkin date at 2017-11-11 and checkout date at 2017-12-01" or "we are a family with 2 persons and 1 child, checkin date at 2017-11-11 and checkout date at 2017-12-01". here is where the AI kicks in, it sees "child" as "kid"
+
 
 A few technical level bullet points here
 * in each step above, facebooking messenger communicates with our hosted webservice through api.ai. communication is two ways
