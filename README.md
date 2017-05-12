@@ -19,4 +19,4 @@ There are some steps you need to follow in order to recreate the complete enviro
 A few technical level bullet points here
 * in each step above, facebooking messenger communicates with our hosted webservice through api.ai. communication is two ways
 * information gathered from step1 is saved into api.ai context and get passed further to step2
-* step2 step will not be triggered unless step1 is triggered
+* step2 will not be triggered unless step1 is triggered
